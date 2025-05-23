@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gilroy';
+}
+nav{
+    height: 20vh;
+    width: 100%;
+    /* background-color: rgb(77, 92, 105); */
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.logo{
+    display: block;
+    margin: auto;
+    height: 50%;
+    width: fit-content;
+    object-fit: cover;
+}
+body{
+    background:linear-gradient(to right,rgb(159, 150, 122),rgb(101, 148, 161),rgb(47, 60, 68));
+}
+.container{
+    max-width: 955px;
+    margin: auto;
+    /* background-color: rgb(72, 11, 11); */
+    height: 60vh;
+    overflow-y: auto;
+    margin-bottom: 15px;
+
+}
+.message{
+    background-color: grey;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid rgb(22, 27, 22);
+    border-radius: 7px;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.left{
+    float: left;
+    clear: both;
+}
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+}
+.btn{
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 30px;
+}
