@@ -4,10 +4,7 @@ const http = require('http').createServer(app);
 const io = require('socket.io')(http, {
     cors: {
         origin: [
-            "http://localhost:5173",
-            "http://localhost:5174",
-            "http://127.0.0.1:5173",
-            "http://127.0.0.1:5174"
+            "https://chatapplication-1-an8x.onrender.com"
         ],
         methods: ["GET", "POST"]
     }
