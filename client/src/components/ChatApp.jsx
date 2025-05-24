@@ -18,7 +18,7 @@ const ChatApp = () => {
   const { user, logout } = useAuth();
 
   useEffect(() => {
-    socketRef.current = io('https://chatapplication-98i2.onrender.com');
+    socketRef.current = io('https://chatapplication-d4ph.onrender.com');
     socketRef.current.emit('new-user-joined', user);
 
     socketRef.current.on('load-messages', (previousMessages) => {
